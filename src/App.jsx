@@ -200,8 +200,8 @@ function App() {
                     <div className="img-placeholder"></div>
                   </div>
                   <div className="project-details">
-                    <h4 className="project-title">Firbank Grammar School – Maldives</h4>
-                    <p className="project-desc">Led the <span className="highlight">Active Directory Migration</span> and implemented a comprehensive <span className="highlight">Backup and Disaster Recovery</span> strategy for the AD environment. Key technical focus included managing the identity lifecycle, enforcing network-wide security policies, and ensuring data resilience and integrity across the school’s infrastructure.</p>
+                    <h4 className="project-title">Firbank Grammar School – Australia</h4>
+                    <p className="project-desc">Orchestrated the migration of an on-premises <span className="highlight">Windows Server 2016 Active Directory</span> environment supporting <span className="highlight">1,500+ users</span> to <span className="highlight">Azure AD (Entra ID)</span>. This technical transition included the full deployment of <span className="highlight">Microsoft Intune</span> for centralized mobile device management (MDM) and endpoint security, ensuring a modern, cloud-first identity and access management framework.</p>
                     <ul className="tech-tags">
                       <li>Azure</li>
                       <li>Entra ID</li>
