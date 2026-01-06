@@ -127,9 +127,9 @@ function App() {
                     <p className="exp-desc">supported and led technical solutions across corporate and education environments, with a strong focus on <span className="highlight">Power Platform</span> and
                       <span className="highlight"> Canvas App</span> development. A big part of my work has been designing low-code applications and automations that streamline processes, reduce manual effort, and improve day-to-day operations.</p>
                     <ul className="tech-tags">
-                      <li><span className="highlight">Power Platform</span></li>
-                      <li><span className="highlight">Canvas App</span></li>
-                      <li><span className="highlight">Power Automate</span></li>
+                      <li>Canvas App</li>
+                      <li>Power Automate</li>
+                      <li>Power Platform</li>
                     </ul>
                   </div>
                 </li>
@@ -178,6 +178,34 @@ function App() {
                       <li>Power Platform</li>
                       <li>Power Automate</li>
                       <li>Power Bi</li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="project-item">
+                  <div className="project-image">
+                    <div className="img-placeholder"></div>
+                  </div>
+                  <div className="project-details">
+                    <h4 className="project-title">CBR Hotels – Maldives</h4>
+                    <p className="project-desc">Executed a full-scale <span className="highlight">Active Directory (AD) Migration</span> and managed the directory services infrastructure. This included optimizing the AD environment through complex <span className="highlight">Group Policy Object (GPO)</span> configurations, <span className="highlight">Organizational Unit (OU)</span> structuring, and ensuring high-availability identity management for critical enterprise operations.</p>
+                    <ul className="tech-tags">
+                      <li>Windows Server 2008 R2</li>
+                      <li>Windows Server 2012 R2</li>
+                      <li>Windows Server 2016</li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="project-item">
+                  <div className="project-image">
+                    <div className="img-placeholder"></div>
+                  </div>
+                  <div className="project-details">
+                    <h4 className="project-title">Firbank Grammar School – Maldives</h4>
+                    <p className="project-desc">Led the <span className="highlight">Active Directory Migration</span> and implemented a comprehensive <span className="highlight">Backup and Disaster Recovery</span> strategy for the AD environment. Key technical focus included managing the identity lifecycle, enforcing network-wide security policies, and ensuring data resilience and integrity across the school’s infrastructure.</p>
+                    <ul className="tech-tags">
+                      <li>Azure</li>
+                      <li>Entra ID</li>
+                      <li>Azure Connect</li>
                     </ul>
                   </div>
                 </li>
