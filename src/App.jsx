@@ -106,10 +106,13 @@ function App() {
               <h3 className="section-title mobile-only">About</h3>
               <div className="prose">
                 <p>
-                  I'm a Systems Engineer with over <span className="highlight">6 years+ of hands-on experience </span>, specializing in the <span className="highlight">Microsoft Power Platform</span> and modern cloud technologies. I sit at the intersection of cloud engineering and low-code development, building solutions that actually make day-to-day work easier for teams.
+                  I’m a <span className="highlight">Systems Engineer</span> with over <span className="highlight">6 years of hands-on experience</span> in building scalable, enterprise-grade digital solutions. I specialize in bridging the gap between complex business requirements and high-performance automation, ensuring every app I build is as intuitive as it is robust.
                 </p>
                 <p>
-                  My background covers <span className="highlight"> Azure, Microsoft 365, Intune, SCCM, and Power Platform solutions</span>, with a strong focus on creating <span className="highlight">Canvas Apps</span> that solve real operational problems. I enjoy taking business ideas and turning them into clean, user-friendly applications, backed by <span className="highlight">secure, scalable cloud services</span> that are built to last.
+                  Currently, I focus on architecting end-to-end ecosystems using <span className="highlight">Power Apps (Canvas & Model-Driven)</span> and <span className="highlight">Power Automate</span>. From mastering advanced <span className="highlight">Power Fx</span> and <span className="highlight">PCF controls</span> to managing complex <span className="highlight">Dataverse</span> architectures, my goal is to deliver seamless user experiences backed by iron-clad security and governance. I’m particularly passionate about <span className="highlight">ALM (Application Lifecycle Management)</span>, ensuring smooth deployments across Dev, Test, and Prod environments using GitHub and Azure DevOps.
+                </p>
+                <p>
+                  In the past, I’ve had the privilege of driving digital transformation for large-scale organizations with massive user bases (<span className="highlight">2,000+ users</span>), including industry leaders like <span className="highlight">PKT Logistics Group</span> (recognized as Malaysia's Best Managed Company for 2025). My background isn’t just limited to low-code; I bring deep technical expertise in <span className="highlight">Azure & Microsoft 365 Administration, Intune, and SCCM</span>, which allows me to view the Power Platform through the lens of enterprise infrastructure and security.
                 </p>
               </div>
             </section>
