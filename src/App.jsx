@@ -183,7 +183,7 @@ function App() {
                 </li>
                 <li className="project-item">
                   <div className="project-image">
-                    <div className="img-placeholder"></div>
+                    <img src="/images/CBR.jpg" alt="CBR Hotels Project" className="project-img" />
                   </div>
                   <div className="project-details">
                     <h4 className="project-title">CBR Hotels – Maldives</h4>
@@ -197,7 +197,7 @@ function App() {
                 </li>
                 <li className="project-item">
                   <div className="project-image">
-                    <div className="img-placeholder"></div>
+                    <img src="/images/Firbank.jpg" alt="Firbank Grammar Project" className="project-img" />
                   </div>
                   <div className="project-details">
                     <h4 className="project-title">Firbank Grammar School – Australia</h4>
