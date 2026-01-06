@@ -169,7 +169,7 @@ function App() {
                 </li>
                 <li className="project-item">
                   <div className="project-image">
-                    <img src="/images/insuite.png" alt="inSuite Apps Screenshot" className="project-img" />
+                    <img src="/images/insuite.jpg" alt="inSuite Apps Screenshot" className="project-img" />
                   </div>
                   <div className="project-details">
                     <h4 className="project-title">Created and Managed inSuite Apps</h4>
