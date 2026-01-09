@@ -15,7 +15,7 @@ function App() {
   // Scroll Spy logic
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'experience', 'projects'];
+      const sections = ['about', 'experience', 'certifications', 'projects'];
 
       // 1. Check if we've reached the bottom of the page
       if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
@@ -41,6 +41,44 @@ function App() {
     handleScroll(); // Check on init
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const certifications = [
+    {
+      title: "Microsoft Certified: Power Platform Developer Associate",
+      number: "43E9W9-53F399",
+      date: "Earned on Dec 20, 2022"
+    },
+    {
+      title: "Microsoft 365 Certified: Teams Administrator Associate",
+      number: "60595J-C32563",
+      date: "Earned on Jan 16, 2021"
+    },
+    {
+      title: "Microsoft 365 Certified: Administrator Expert",
+      number: "B5A84Z-7A09EB",
+      date: "Earned on Jan 16, 2021"
+    },
+    {
+      title: "Microsoft Certified: Azure Administrator Associate",
+      number: "248ECE-4JE210",
+      date: "Earned on Sep 25, 2019"
+    },
+    {
+      title: "MCSE: Core Infrastructure",
+      number: "D394B3-11A22E",
+      date: ""
+    },
+    {
+      title: "MCSA: Windows Server 2016",
+      number: "16953F-D3933E",
+      date: ""
+    },
+    {
+      title: "Microsoft Certified Professional",
+      number: "P2C044-3E4C5D",
+      date: ""
+    }
+  ];
 
   return (
     <div className="app-container">
@@ -78,6 +116,11 @@ function App() {
                     <li>
                       <a href="#experience" className={`nav-link ${activeSection === 'experience' ? 'active' : ''}`}>
                         <span className="nav-indicator"></span>Experience
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#certifications" className={`nav-link ${activeSection === 'certifications' ? 'active' : ''}`}>
+                        <span className="nav-indicator"></span>Certifications
                       </a>
                     </li>
                     <li>
@@ -148,6 +191,21 @@ function App() {
                   </div>
                 </li>
               </ol>
+            </section>
+
+            <section id="certifications" className="section">
+              <h3 className="section-title mobile-only">Certifications</h3>
+              <div className="certification-list">
+                {certifications.map((cert, index) => (
+                  <div key={index} className="experience-item certification-item">
+                    <div className="exp-date" style={{ whiteSpace: 'nowrap' }}>{cert.number}</div>
+                    <div className="exp-details">
+                      <h4 className="exp-role">{cert.title}</h4>
+                      {cert.date && <p className="exp-desc" style={{ fontSize: '0.85rem', color: '#94a3b8' }}>{cert.date}</p>}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </section>
 
             <section id="projects" className="section">
